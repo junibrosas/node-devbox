@@ -1,0 +1,4 @@
+- lerna init
+- npx create-next-app --example custom-server-express web
+- git clone https://github.com/madhums/node-express-mongoose.git api
+- grabbed a sample nextjs .gitignore file
