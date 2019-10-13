@@ -1,5 +1,5 @@
 {
-  "name": "node-express-mongoose",
+  "name": "@devbox/api",
   "description": "A boilerplate application for node, mongo",
   "version": "1.0.0",
   "author": {
@@ -16,6 +16,7 @@
     "prod": "pm2-runtime start ecosystem.config.js --env production"
   },
   "dependencies": {
+    "@devbox/common": "1.0.0",
     "body-parser": "~1.19.0",
     "co": "~4.6.0",
     "compression": "~1.7.4",
