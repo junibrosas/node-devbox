@@ -7,4 +7,5 @@
 - created a mongo database name called `node-devbox`.
 - added a new folder called `common` which will contain all our common code that will be used in both api and web.
 - bootstrap those 3 packages using `lerna bootstrap`.
+- Once you import a library to your code for the first time, run `lerna bootstrap`.
 
