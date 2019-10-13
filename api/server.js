@@ -51,6 +51,7 @@ function listen() {
 
 function connect() {
   var options = { keepAlive: 1, useNewUrlParser: true };
+  console.warn(config.db);
   mongoose.connect(config.db, options);
   return mongoose.connection;
 }

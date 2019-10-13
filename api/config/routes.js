@@ -5,6 +5,7 @@
  */
 
 const home = require('../app/controllers/home');
+const users = require('../app/routes/users.routes');
 
 /**
  * Expose
@@ -12,6 +13,7 @@ const home = require('../app/controllers/home');
 
 module.exports = function(app) {
   app.get('/', home.index);
+  app.use('/api', users);
 
   /**
    * Error handling
