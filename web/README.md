@@ -20,6 +20,7 @@ Download the example:
 curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/custom-server-express
 cd custom-server-express
 ```
+## Usage
 
 Install it and run:
 
